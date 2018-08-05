@@ -15,3 +15,17 @@
 #navMenuToggle>ul>li>a {
     color: #444;
 }
+
+#navMenuToggle>ul>li>a:hover {
+    color: #0ba2db;
+}
+
+.fa-bars {
+    color: #444;
+}
+
+@media (max-width:767px) {
+    .navbar-nav {
+        background: #ededed;
+    }
+}
