@@ -1,13 +1,11 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md bg-transparent fixed-top" role="navigation">
     <div class="container">
-        <div class="navbar-header">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenuToggle" aria-controls="navMenuToggle" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <div id="navBarBrand" class="navbar-brand">Clean Code Art</div>
+        <button id="navBarMenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenuToggle" aria-controls="navMenuToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
-            <div id="navBarBrand" class="navbar-brand">Clean Code</div>
-        </div>
         <div class="collapse navbar-collapse" id="navMenuToggle">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#"> About us </a>
                 </li>
@@ -19,6 +17,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"> Contact </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Blog</a>
                 </li>
             </ul>
         </div>

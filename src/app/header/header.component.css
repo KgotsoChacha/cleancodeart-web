@@ -1,0 +1,15 @@
+#header {
+    padding-top: 140px;
+    height: 100vh;
+    min-height: 200px;
+    max-height: 700px;
+    background: url('../../assets/header.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.welcome-text {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 25px;
+}

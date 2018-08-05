@@ -1,3 +1,17 @@
 #navBarBrand {
     padding-left: 20px;
+    color: black;
+}
+
+#navBarMenu:focus {
+    outline: none;
+}
+
+#navMenuToggle {
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+#navMenuToggle>ul>li>a {
+    color: #444;
 }
